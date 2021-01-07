@@ -1,0 +1,26 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+responses:
+  utter_greet:
+  - text: 嗨~
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 要开心一点哦~
+  utter_did_that_help:
+  - text: 好玩吗？
+  utter_happy:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 太棒啦，我也很开心~
+  utter_goodbye:
+  - text: 嗯呢，回聊~
+  utter_iamabot:
+  - text: 我是机器人，可以陪你聊天哦~
